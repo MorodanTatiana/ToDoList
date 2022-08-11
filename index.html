@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- defer ajuta la incarcarea mai eficenta a pagini astfel code script 
+    se poate muta in tagul head @TODO Explicat defer -->
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+    <title>To Do List <33</title>
+</head>
+
+<body>
+    <!-- am facut o clasa container ca sa acopar app ul -->
+    <div class="container">
+
+        <div id="myDIV" class="header">
+            <h1>To do zilnic :</h1>
+            <input type="text" placeholder="...typing" id="myInput">
+            <span onclick="newElement()" class="addbtn"><strong>+</strong></span>
+        </div>
+
+
+        <ul id="myUL">
+            <li>Add tomato in soup</li>
+        </ul>
+
+
+
+    </div>
+
+    <footer id="bottom-container" class="section">
+        <a class="footer-link" href="#personal site - Valy <3">Website</a>
+        <p>© V & T</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
+
+
+
+<!--
+    https://www.w3schools.com/howto/howto_js_todolist.asp
+    https://curiosum.com/blog/seo-speed-script-tags-async-vs-defer
+-->
